@@ -1,6 +1,6 @@
 .top-info-nav {
     height: 75px;
-    width: 64%;
+    width: 64.3%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -8,14 +8,14 @@
 .top-panel {
     height: 100%;
     width: 33.33%;
-    margin: 5px;
+    margin: 5px 3px;
 }
 .left-panel {
     background-image: url(../assets/robot.jpeg);
     background-size: cover;
 }
 .center-panel {
-    background-image: url(../assets/logo_lego.jpg.crdownload);
+    background-image: url(../assets/logo_lego.jpg);
     background-size: cover;
 }
 .right-panel {
