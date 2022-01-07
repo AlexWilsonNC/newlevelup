@@ -13,12 +13,14 @@
 .left-panel {
     background-image: url(../assets/robot.jpeg);
     background-size: cover;
+    background-position: center;
 }
 .center-panel {
     background-image: url(../assets/logo_lego.jpg);
     background-size: cover;
+    background-position: center;
 }
 .right-panel {
     background-image: url(../assets/maxresdefault.jpg);
-    background-size: cover;
+    background-size: cover;    background-position: center;
 }
