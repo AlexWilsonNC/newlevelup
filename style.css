@@ -12,6 +12,7 @@ body {
     background-size: cover; */
     background: linear-gradient(to bottom, white, grey);
     background-size: cover;
+    font-family: 'Roboto', sans-serif;
 }
 main {
     height: 100vh;
@@ -19,4 +20,54 @@ main {
     margin: 0 auto;padding:20px;
     margin-top: -10px;
     background-color: white;
+}
+#top-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#biggest-cube {
+    width: 500px;height:385px;
+    background-color: rgb(49, 49, 49);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#main-img {
+    background: url(./assets/kids-switch.jpg) no-repeat cover;
+    background-size: cover;
+}
+#biggest-cube h1 {
+    height: 40%;
+    background-color: rgb(49,49,49);
+    color: white;
+    font-weight: 400;
+}
+#side-cubes {
+    display: flex;
+    flex-direction: column;
+}
+.side-main-cube {
+    width: 340px;height: 185px;
+    border-radius: 10px;
+    margin: 10px;    
+}
+.top-side-cube {
+    background-color: orange;
+}
+.bottom-side-cube {
+    background-color: green;
+}
+#under-main-cubes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+.small-cube {
+    width: 275px;height: 225px;
+    background-color: purple;
+    border-radius: 10px;
 }
