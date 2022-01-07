@@ -4,6 +4,10 @@
     list-style: none;
     text-decoration: none;
 }
+:root {
+    --cube-shadow: 10px 10px 20px rgba(0,0,0,0.6);
+    --cube-hover: 5px 5px 12px rgba(0,0,0,0.75);
+}
 body {
     /* background: url(./assets/white-bg2.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -27,39 +31,92 @@ main {
     justify-content: space-around;
     align-items: center;
 }
-#biggest-cube {
-    width: 500px;height:385px;
-    background-color: rgb(49, 49, 49);
-    border-radius: 10px;
+.cube {
+    box-shadow: var(--cube-shadow);
+    transition: ease-in-out 0.2s;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
 }
-#main-img {
-    background: url(./assets/kids-switch.jpg) no-repeat cover;
-    background-size: cover;
+.cube img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.cube:hover {
+    /* box-shadow: var(--cube-hover); */
+    animation: pop 0.3s;
+}
+@keyframes pop {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.99);
+    }
+}
+.cube-text {
+    height: 40%; width: 100%;
+    color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cube-text h1,h2{text-align: center;}
+.cube-text p {align-items: start;margin: 0px 10px;}
+#biggest-cube {
+    width: 520px;height:400px;
+    background-color: rgb(49, 49, 49);
+    border-radius: 10px;
+}
+#biggest-cube img {
+    object-fit: cover;
+    width: 100%;
+    overflow: hidden;
 }
 #biggest-cube h1 {
-    height: 40%;
-    background-color: rgb(49,49,49);
-    color: white;
     font-weight: 400;
+    margin: -15px 0px 15px;
+}
+#biggest-cube p {
+    font-size: 17px;
+    margin: 0px 15px;
 }
 #side-cubes {
     display: flex;
     flex-direction: column;
 }
 .side-main-cube {
-    width: 340px;height: 185px;
+    width: 400px;height: 190px;
     border-radius: 10px;
-    margin: 10px;    
+    margin: 10px;
 }
-.top-side-cube {
-    background-color: orange;
+.side-main-cube img {
+    object-fit: cover;
+    width: 100%;
+    overflow: hidden;
 }
-.bottom-side-cube {
-    background-color: green;
+.side-main-cube h2 {
+    font-weight: 400;
+}
+.cube-blue {
+    background-color: rgb(0, 119, 255);
+}
+.cube-purple {
+    background-color: rgb(143, 0, 143);
+}
+.cube-green {
+    background-color: rgb(0, 160, 0);
+}
+.cube-yellow {
+    background-color: rgb(226, 185, 0);
+}
+.cube-orange {
+    background-color: rgb(255, 102, 0);
+}
+.cube-red {
+    background-color: red;
 }
 #under-main-cubes {
     display: flex;
@@ -68,7 +125,14 @@ main {
     margin-top: 25px;
 }
 .small-cube {
-    width: 275px;height: 225px;
-    background-color: purple;
+    width: 300px;height: 225px;
     border-radius: 10px;
 }
+.small-cube img {
+    object-fit: cover;
+    width: 100%;
+    overflow: hidden;
+}
+#p1 {font-size: 20px;}
+#p2 {font-size: 20px;}
+#p3 {font-size: 17.2px;}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,19 +12,24 @@
     <link rel="stylesheet" href="./css/nav-side.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
 </head>
+
 <body>
-    <div class='top-info-nav'> <!--nav-top-info.css-->
+    <div class='top-info-nav'>
+        <!--nav-top-info.css-->
         <div class='top-panel left-panel'></div>
         <div class='top-panel center-panel'></div>
         <div class='top-panel right-panel'></div>
     </div>
-    <div class='top-logo'> <!--nav-main.css-->
+    <div class='top-logo'>
+        <!--nav-main.css-->
         <img src='./assets/levelup-trans.png' alt='levelup logo' />
     </div>
-    <nav class='main-nav'> <!--nav-main.css-->
+    <nav class='main-nav'>
+        <!--nav-main.css-->
         <div class='nav-tile left-nav-tile grey-tile active-tile-home'>
             <div class='nav-color grey'></div>
             <i class="fa fa-home"></i>
@@ -50,17 +56,18 @@
             <p>Events</p>
         </div>
         <div class='nav-tile yellow-tile'>
-            <div class='nav-color yellow'></div>
+            <div class='nav-color orange'></div>
             <i class="fas fa-align-left"></i>
             <p>Blog</p>
         </div>
         <div class='nav-tile right-nav-tile orange-tile'>
-            <div class='nav-color orange'></div>
+            <div class='nav-color yellow'></div>
             <i class="fa fa-male"></i>
             <p>Staff</p>
         </div>
     </nav>
-    <aside> <!--nav-side.css-->
+    <aside>
+        <!--nav-side.css-->
         <div class='aside-button aside-green'>
             <i class="fas fa-user"></i>
             <p>Login</p>
@@ -79,22 +86,53 @@
         </div>
     </aside>
 
-    <main> <!--style.css-->
+    <main>
+        <!--style.css-->
         <div id='top-main'>
-            <div id='biggest-cube'>
-                <div id='main-img'></div>
-                <h1>Welcome to LEVEL UP!</h1>
+            <div id='biggest-cube' class='cube'>
+                <img src='./assets/laser-tag.jpg' alt='kids playing' />
+                <div class='cube-text'>
+                    <h1>Welcome to LEVEL UP!</h1>
+                    <p>We offer STEM based After School and Summer Camp Programs that include a variety of fun, engaging
+                        and educational activities.</p>
+                </div>
             </div>
             <div id='side-cubes'>
-                <div class='side-main-cube top-side-cube'></div>
-                <div class='side-main-cube bottom-side-cube'></div>
+                <div class='cube side-main-cube'>
+                    <img src='./assets/kids-switch.jpg' alt='kids playing' />
+                    <div class='cube-text cube-blue'>
+                        <h2>Enrolling for Summer Camp Now</h2>
+                    </div>
+                </div>
+                <div class='cube side-main-cube'>
+                    <img src='./assets/mark-kids-building-lego.jpg' alt='kids building' />
+                    <div class='cube-text cube-purple'>
+                        <h2>Enrolling for After School Now</h2>
+                    </div>
+                </div>
             </div>
         </div>
         <div id='under-main-cubes'>
-            <div class='small-cube'></div>
-            <div class='small-cube'></div>
-            <div class='small-cube'></div>
+            <div class='cube small-cube'>
+                <img src='./assets/cartoon-style-medical-mask-vector.jpg' alt='mask' />
+                <div class='cube-text cube-orange'>
+                    <p id='p1'>We're focused on the safety of your children, see how...</p>
+                </div>
+            </div>
+            <div class='cube small-cube'>
+                <img src='./assets/kids-poke-tourney.jpg' alt='kids playing' />
+                <div class='cube-text cube-green'>
+                    <p id='p2'>Come and play in one of our Pokemon TCG events!</p>
+                </div>
+            </div>
+            <div class='cube small-cube'>
+                <img src='./assets/chass.jpg' alt='kids playing' />
+                <div class='cube-text cube-red'>
+                    <p id='p3'>Kids will think out of the box through our many stimulating activities.</p>
+                </div>
+            </div>
         </div>
     </main>
 </body>
+
 </html>
