@@ -24,14 +24,6 @@ aside {
     border-bottom: 2px solid black;
     transition: ease-in-out 0.16s;
 }
-.aside-purple:hover,
-.aside-purple:hover i,
-.aside-grey:hover,
-.aside-grey:hover i,
-.no-bottom-border:hover,
-.no-bottom-border:hover i {
-    color: white;
-}
 .aside-button i {
     font-size: 22px;
     color: rgb(83, 83, 83);
@@ -46,20 +38,31 @@ aside {
     border-top-right-radius: 18px;
     color: white;
 }
-.aside-green:hover,
-.aside-green:hover i {
-    color: black;
+.aside-purple,
+.aside-purple i {
+    background-color: rgb(0, 160, 0);
+    border-top-right-radius: 18px;
+    color: white;
 }
-.aside-purple:hover {
+.aside-grey,
+.aside-grey i {
     background-color: rgb(143, 0, 143);
+    color: white;
 }
-.aside-grey:hover {
-    background-color: grey;
-}
-.no-bottom-border {
-    border: none;
-}
-.no-bottom-border:hover {
+.no-bottom-border,
+.no-bottom-border i {
     background-color: rgb(0, 119, 255);
     border-bottom-right-radius: 18px;
+    color: white;
+    border: none;
+}
+.aside-green:hover,
+.aside-green:hover i,
+.aside-purple:hover,
+.aside-purple:hover i,
+.aside-grey:hover,
+.aside-grey:hover i,
+.no-bottom-border:hover,
+.no-bottom-border:hover i {
+    color: black;
 }
