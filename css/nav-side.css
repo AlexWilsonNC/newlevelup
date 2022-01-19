@@ -40,8 +40,7 @@ aside {
 }
 .aside-purple,
 .aside-purple i {
-    background-color: rgb(0, 160, 0);
-    border-top-right-radius: 18px;
+    background-color: grey;
     color: white;
 }
 .aside-grey,

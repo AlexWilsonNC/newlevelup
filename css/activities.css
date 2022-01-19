@@ -1,0 +1,95 @@
+.activ-main {
+    display: flex;
+    justify-content: flex-start;
+}
+.activities-side {
+    width: 180px;
+    height: 281px;
+    border: 1px solid #a0a0a0;
+    border-radius: 5px;
+    background-color: rgb(230, 230, 230);
+}
+.activities-side li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #a0a0a0;
+}
+#bottom-li {
+    border-bottom: none;
+}
+.li-white {
+    background-color: #fff;
+}
+
+.active-li-top {
+    background-color: rgb(70, 144, 255);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #fff;
+}
+.active-li {
+    color: #fff;
+    background-color: rgb(70, 144, 255);
+}
+
+/********************************************/
+
+.main-activ {
+    width: 100%;
+    margin-left: 40px;
+}
+.hide-that-activity {
+    /* display: none; */
+}
+.activ-h1 {
+    font-weight: 300;
+}
+.activ-hr {
+    margin-top: 10px;
+    width: 95%;
+}
+.activ-first-p {
+    margin: 25px 10px 25px 0px;
+    line-height: 23px;
+    color: rgb(75, 75, 75);
+}
+.beside-img {
+    margin: 0px;
+    padding: 0px 25px;
+}
+.img-and-p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+}
+.activ-img {
+    width: 400px;
+    border-radius: 10px;
+}
+.activ-h2 {
+    font-weight: 300;
+    text-align: start;
+    margin-top: 25px;
+}
+.multi-uls {
+    display: flex;
+    flex-direction: row;
+}
+.activ-advantages li {
+    padding: 10px 15px;
+    font-size: 20px;
+}
+.activ-buttons-bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+.activ-buttons-bottom button {
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    margin-right: 50px;
+    font-size: 22px;
+    line-height: 30px;
+    border: 2px solid black;
+}

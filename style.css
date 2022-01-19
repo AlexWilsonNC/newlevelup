@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 :root {
-    /* --cube-shadow: 10px 10px 20px rgba(0,0,0,0.6); */
+    --cube-shadow: 10px 10px 20px rgba(0,0,0,0.6);
     --cube-hover: 5px 5px 12px rgba(0,0,0,0.75);
 }
 body {
