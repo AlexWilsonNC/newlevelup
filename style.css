@@ -243,3 +243,9 @@ main {
     color:#fff;
     margin: 10px 50px 0 15px;
 }
+
+@media screen and (max-width: 1300px) {
+    main {
+        width: 62%;
+    }
+}

@@ -24,3 +24,10 @@
     background-image: url(../assets/maxresdefault.jpg);
     background-size: cover;    background-position: center;
 }
+
+@media screen and (max-width: 1300px) {
+    .top-info-nav {
+        height: 65px;
+        width: 67%;
+    }
+}

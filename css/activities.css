@@ -38,7 +38,7 @@
     margin-left: 40px;
 }
 .hide-that-activity {
-    /* display: none; */
+    display: none;
 }
 .activ-h1 {
     font-weight: 300;
@@ -92,4 +92,18 @@
     font-size: 22px;
     line-height: 30px;
     border: 2px solid black;
+}
+
+@media screen and (max-width: 1300px) {
+    .main-activ {
+        width: 78%;
+        margin-left: 40px;
+    }
+    .activ-img {
+        width: 300px;
+        margin-bottom: 25px;
+    }
+    .img-and-p {
+        flex-direction: column;
+    }
 }
