@@ -153,3 +153,23 @@ main {
         width: 62%;
     }
 }
+@media screen and (max-width: 800px) {
+    body {
+        background-size: none;
+    }
+    .cube {
+        display: none;
+    }
+    main {
+        width: 100%;
+        margin: 0 auto;padding:5px;
+        padding-top: 225px;
+        margin-top: -200px;
+    }
+    .top-main {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+}

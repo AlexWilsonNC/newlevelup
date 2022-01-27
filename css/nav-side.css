@@ -65,3 +65,18 @@ aside {
 .no-bottom-border:hover i {
     color: black;
 }
+@media screen and (max-width: 800px) {
+    aside {
+        top: 60%;
+        height: 200px;
+        width: 70px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .aside-button i {
+        font-size: 17px;
+    }
+    .aside-button p {
+        font-size: 14px;
+    }
+}

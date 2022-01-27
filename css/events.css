@@ -1,0 +1,32 @@
+.event-block-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.event-block {
+    width: 370px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 7.5px;
+    margin-top: 15px;
+}
+.event-block p {
+    margin: 10px 0px;
+}
+.event-name {
+    text-align: start;
+    margin-left: 10px;
+}
+.prize-reg-btn {
+    display: flex;
+    justify-content: space-between;
+}
+.prize-reg-btn button {
+    padding: 0px 7px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgba(0, 119, 255, 0.795); 
+    color: #fff;
+}

@@ -78,23 +78,36 @@
 }
 .activ-advantages li {
     padding: 10px 15px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .activ-buttons-bottom {
     display: flex;
     flex-direction: row;
+    /* justify-content: center; */
     margin-top: 15px;
 }
 .activ-buttons-bottom button {
-    padding: 15px;
+    padding: 12px;
     border-radius: 10px;
-    width: 300px;
+    width: 200px;
     margin-right: 50px;
-    font-size: 22px;
-    line-height: 30px;
-    border: 2px solid black;
+    margin-bottom: 25px;
+    font-size: 18px;
+    /* border: 1px solid black; */
+    border-style: none;
+    color: #fff;
 }
-
+.blu-btn {
+    background-color: rgba(0, 119, 255, 0.795); 
+}
+.pink-btn {
+    background-color: rgba(255, 47, 82, 0.801);
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+/* 
 @media screen and (max-width: 1300px) {
     .main-activ {
         width: 78%;
@@ -115,4 +128,4 @@
         line-height: 30px;
         border: 1px solid black;
     }
-}
+} */
