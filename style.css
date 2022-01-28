@@ -148,23 +148,24 @@ main {
 #p2 {font-size: 20px;}
 #p3 {font-size: 17.2px;}
 
-@media screen and (max-width: 1300px) {
+/* @media screen and (max-width: 1300px) {
     main {
         width: 62%;
     }
-}
+} */
 @media screen and (max-width: 800px) {
     body {
-        background-size: none;
+        background: linear-gradient(to bottom, white, white);
     }
     .cube {
         display: none;
     }
     main {
-        width: 100%;
-        margin: 0 auto;padding:5px;
+        margin: 0 auto;padding:0px;
         padding-top: 225px;
         margin-top: -200px;
+        display: flex;
+        flex-direction: column;
     }
     .top-main {
         display: flex;

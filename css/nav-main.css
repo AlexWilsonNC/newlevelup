@@ -7,6 +7,7 @@
 .top-logo img {
     width: 225px;
 }
+
 .main-nav {
     display: flex;
     justify-content: center;
@@ -105,14 +106,23 @@
     }
     .main-nav {
         height: 80px;
-        min-width: 90%;
+        padding: 0px 5px;
+        margin-top: 4px;
     }
     .nav-tile {
-        width: 5px;
+        width:0px;
         box-shadow: 2px 3px 6px rgba(0,0,0,0.4);
+        padding: 0px 28px;
+    }
+    .nav-color {
+        height: 5px;
+        width: 100px;
     }
     .nav-tile i {
         margin-top: 15px;
         font-size: 16px;
+    }
+    .nav-tile p {
+        font-size: 12px;
     }
 }
