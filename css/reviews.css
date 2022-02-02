@@ -95,9 +95,51 @@
     color:#fff;
     margin: 10px 50px 0 15px;
 }
+#mobile-reviews {
+    display: none;
+}
 
 @media screen and (max-width: 800px) {
     .slide-container {
         display: none;
+    }
+    #mobile-reviews {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .slides-div {
+        width: 95%;
+    }
+    .pic-name img {
+        margin: 10px 0 0 15px;
+        width:40px;height:40px;
+    }
+    .name-date {
+        margin: 10px 0px 0px 15px;
+    }
+    .reviewer-name {
+        font-size: 16px;
+    }
+    .reviewer-date {
+        font-size: 12px;
+    }
+    .stars {
+        margin-left: 15px;
+        margin-top: 0px;
+    }
+    .stars i {
+        font-size: 10px;
+        color: rgb(255, 102, 0);
+        margin: 0px -16px;
+    }
+    .review-text {
+        font-size: 12px;
+        margin-top: 5px;
+        margin-bottom: 7px;
+    }
+    .review {
+        height: auto;width:90%;
+        margin: 5px;
     }
 }

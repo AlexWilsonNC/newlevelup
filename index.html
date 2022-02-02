@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
 </head>
 
@@ -67,6 +68,27 @@
             <p>Staff</p>
         </a>
     </nav>
+    <div id='right-nav-drop'>
+        <a href='./index.html'><p id='item-shop-label'>LEVEL UP</p></a>
+        <i id='nav-collapse' class='fas fa-bars'></i>
+        <div id='dropdown-content'>
+            <a aria-label='home' href='./index.html'>Home</a>
+            <hr id='home-hr'>
+            <a aria-label='after school' href='./pages/programs/after-school.html'>After School</a>
+            <hr id='as-hr'>
+            <a aria-label='summer camp' href='./pages/programs/summer-camp.html'>Summer Camp</a>
+            <hr id='sc-hr'>
+            <a aria-label='activities' href='./pages/activities/all-activities.html'>Activities</a>
+            <hr id='activ-hr'>
+            <a aria-label='events' href='./pages/events.html'>Events</a>
+            <hr id='events-hr'>
+            <a aria-label='blog' href='./pages/blog-main.html'>Blog</a>
+            <hr id='blog-hr'>
+            <a aria-label='staff' href='./pages/staff.html'>Staff</a>
+            <hr id='staff-hr'>
+            <!-- <a aria-label='levelup' href='https://levelupinstem.com/' target='_'>Item Shop</a> -->
+        </div>
+    </div>
     <aside>
         <!--nav-side.css-->
         <!-- <div class='aside-button aside-green'>
@@ -112,6 +134,76 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div id='mobile-reviews'>
+            <div class='slides-div' id='slide-1'>
+                <div class='review img' id='img1'>
+                    <div class='pic-name'>
+                        <img src='./assets/reviews/evita.png'>
+                        <div class='name-date'>
+                            <p class='reviewer-name'>Evita Llewellyn</p>
+                            <p class='reviewer-date'>18 days ago</p>
+                            <div class='stars'>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class='review-text'>Thank God for Level Up! As a single mom level up is a major reason I was
+                        able to stay employed through
+                        this pandemic. My sincerest thanks for taking such excellent and reliable care of my child!
+                    </p>
+                </div>
+                <a href='#slider-span1' class='slide-btn' id='button-1'></a>
+            </div>
+            <div class='slides-div' id='slide-2'>
+                <div class='review img' id='img2'>
+                    <div class='pic-name'>
+                        <img src='./assets/reviews/irina.png'>
+                        <div class='name-date'>
+                            <p class='reviewer-name'>Irina Kirkley</p>
+                            <p class='reviewer-date'>a year ago</p>
+                            <div class='stars'>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class='review-text'>We love this place!!!!!! Our son has been going here for almost 2 years &
+                        we couldn’t be more happy. He never wants to leave & always asks us when he can go back. He
+                        has made so many great friends!</p>
+                </div>
+                <a href='#slider-span2' class='slide-btn' id='button-2'></a>
+            </div>
+            <div class='slides-div' id='slide-'>
+                <div class='review img' id='img3'>
+                    <div class='pic-name'>
+                        <img src='./assets/reviews/tramayne.png'>
+                        <div class='name-date'>
+                            <p class='reviewer-name'>Tramayne Osbourne</p>
+                            <p class='reviewer-date'>2 years ago</p>
+                            <div class='stars'>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class='review-text'>Level Up is one of my family’s fav places in the Charlotte area. My son
+                        absolutely loves both their after school and weekend events. He’s near tears when it’s time
+                        to leave. I often stick around long after just chatting with the owners.</p>
+                </div>
+                <a href='#slider-span3' class='slide-btn' id='button-3'></a>
+            </div>
+
         </div>
         <div id='under-main-cubes'>
             <div class='cube small-cube'>
@@ -159,8 +251,10 @@
                                 </div>
                             </div>
                         </div>
-                        <p class='review-text'>Thank God for Level Up! As a single mom level up is a major reason I was able to stay employed through
-                            this pandemic. My sincerest thanks for taking such excellent and reliable care of my child!</p>
+                        <p class='review-text'>Thank God for Level Up! As a single mom level up is a major reason I was
+                            able to stay employed through
+                            this pandemic. My sincerest thanks for taking such excellent and reliable care of my child!
+                        </p>
                     </div>
                     <a href='#slider-span1' class='slide-btn' id='button-1'></a>
                 </div>
@@ -180,7 +274,9 @@
                                 </div>
                             </div>
                         </div>
-                        <p class='review-text'>We love this place!!!!!! Our son has been going here for almost 2 years & we couldn’t be more happy. He never wants to leave & always asks us when he can go back. He has made so many great friends!</p>
+                        <p class='review-text'>We love this place!!!!!! Our son has been going here for almost 2 years &
+                            we couldn’t be more happy. He never wants to leave & always asks us when he can go back. He
+                            has made so many great friends!</p>
                     </div>
                     <a href='#slider-span2' class='slide-btn' id='button-2'></a>
                 </div>
@@ -200,7 +296,9 @@
                                 </div>
                             </div>
                         </div>
-                        <p class='review-text'>Level Up is one of my family’s fav places in the Charlotte area. My son absolutely loves both their after school and weekend events. He’s near tears when it’s time to leave. I often stick around long after just chatting with the owners.</p>
+                        <p class='review-text'>Level Up is one of my family’s fav places in the Charlotte area. My son
+                            absolutely loves both their after school and weekend events. He’s near tears when it’s time
+                            to leave. I often stick around long after just chatting with the owners.</p>
                     </div>
                     <a href='#slider-span3' class='slide-btn' id='button-3'></a>
                 </div>
@@ -220,8 +318,10 @@
                                 </div>
                             </div>
                         </div>
-                        <p class='review-text'>Thank God for Level Up! As a single mom level up is a major reason I was able to stay employed through
-                            this pandemic. My sincerest thanks for taking such excellent and reliable care of my child!</p>
+                        <p class='review-text'>Thank God for Level Up! As a single mom level up is a major reason I was
+                            able to stay employed through
+                            this pandemic. My sincerest thanks for taking such excellent and reliable care of my child!
+                        </p>
                     </div>
                     <a href='#slider-span4' class='slide-btn' id='button-4'></a>
                 </div>
@@ -241,8 +341,10 @@
                                 </div>
                             </div>
                         </div>
-                        <p class='review-text'>Thank God for Level Up! As a single mom level up is a major reason I was able to stay employed through
-                            this pandemic. My sincerest thanks for taking such excellent and reliable care of my child!</p>
+                        <p class='review-text'>Thank God for Level Up! As a single mom level up is a major reason I was
+                            able to stay employed through
+                            this pandemic. My sincerest thanks for taking such excellent and reliable care of my child!
+                        </p>
                     </div>
                     <a href='#slider-span5' class='slide-btn' id='button-5'></a>
                 </div>
@@ -262,8 +364,10 @@
                                 </div>
                             </div>
                         </div>
-                        <p class='review-text'>Thank God for Level Up! As a single mom level up is a major reason I was able to stay employed through
-                            this pandemic. My sincerest thanks for taking such excellent and reliable care of my child!</p>
+                        <p class='review-text'>Thank God for Level Up! As a single mom level up is a major reason I was
+                            able to stay employed through
+                            this pandemic. My sincerest thanks for taking such excellent and reliable care of my child!
+                        </p>
                     </div>
                     <a href='#slider-span6' class='slide-btn' id='button-6'></a>
                 </div>
@@ -283,17 +387,18 @@
                                 </div>
                             </div>
                         </div>
-                        <p class='review-text'>Thank God for Level Up! As a single mom level up is a major reason I was able to stay employed through
-                            this pandemic. My sincerest thanks for taking such excellent and reliable care of my child!</p>
+                        <p class='review-text'>Thank God for Level Up! As a single mom level up is a major reason I was
+                            able to stay employed through
+                            this pandemic. My sincerest thanks for taking such excellent and reliable care of my child!
+                        </p>
                     </div>
                     <a href='#slider-span7' class='slide-btn' id='button-7'></a>
                 </div>
-                
+
             </div>
         </section>
-
-        
     </main>
+    <script src='./index.js'></script>
 </body>
 
 </html>
