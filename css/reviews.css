@@ -24,7 +24,7 @@
 }
 .img {
     position: relative;
-    height:220px;width:430px;
+    height:280px;width:430px;
     transition: 0.5s;
     z-index: 0;
 }
@@ -52,7 +52,7 @@
 #slider-span7:target ~ .image-slider #button-7 {
     height:220px;width:430px;
     z-index: 1;
-    transform: scale(1.25);
+    transform: scale(1.2);
 }
 #slider-span1:target ~ .image-slider {left: 70%;}
 #slider-span2:target ~ .image-slider {left: 50%;}
@@ -70,7 +70,7 @@
     display: flex;
 }
 .pic-name img {
-    margin: 23px 0 0 15px;
+    margin: 23px 0px 0px 15px;
     width:75px;height:75px;
 }
 .name-date {

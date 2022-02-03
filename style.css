@@ -25,6 +25,7 @@ main {
     padding-top: 225px;
     margin-top: -200px;
     background-color: white;
+    overflow: hidden;
 }
 .top-main {
     display: flex;
