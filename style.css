@@ -9,11 +9,6 @@
     --cube-hover: 5px 5px 12px rgba(0,0,0,0.75);
 }
 body {
-    /* background: url(./assets/white-bg2.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
     background: linear-gradient(to bottom, white, grey);
     background-size: cover;
     font-family: 'Roboto', sans-serif;
