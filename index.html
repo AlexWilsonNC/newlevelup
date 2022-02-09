@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/nav-top-info.css">
     <link rel="stylesheet" href="./css/nav-side.css">
     <link rel="stylesheet" href="./css/reviews.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap"
@@ -69,7 +70,9 @@
         </a>
     </nav>
     <div id='right-nav-drop'>
-        <a href='./index.html'><p id='item-shop-label'>LEVEL UP</p></a>
+        <a href='./index.html'>
+            <p id='item-shop-label'>LEVEL UP</p>
+        </a>
         <i id='nav-collapse' class='fas fa-bars'></i>
         <div id='dropdown-content'>
             <a aria-label='home' href='./index.html'>Home</a>
@@ -95,10 +98,10 @@
             <i class="fas fa-user"></i>
             <p>Login</p>
         </div> -->
-        <div class='aside-button aside-green'>
-            <i class="fas fa-clipboard"></i>
-            <p>Apply</p>
-        </div>
+        <a aria-label='apply' href='./pages/all-docs.html'  class='aside-button aside-green'>
+                <i class="fas fa-clipboard"></i>
+                <p>Apply</p>
+        </a>
         <div class='aside-button aside-grey'>
             <i class="fas fa-door-open"></i>
             <p>Visit</p>
@@ -112,29 +115,37 @@
     <main>
         <!--style.css-->
         <div class='top-main'>
-            <div id='biggest-cube' class='cube'>
-                <img src='./assets/laser-tag.jpg' alt='kids playing' />
-                <div class='cube-text'>
-                    <h1>Welcome to LEVEL UP!</h1>
-                    <p>We offer STEM based After School and Summer Camp Programs that include a variety of fun, engaging
-                        and educational activities.</p>
+            <a href='./pages/programs/summer-camp.html' aria-label='summer camp'>
+                <div id='biggest-cube' class='cube yeppers'>
+                    <img src='./assets/laser-tag.jpg' alt='kids playing' />
+                    <div class='cube-text'>
+                        <h1>Welcome to LEVEL UP!</h1>
+                        <p>We offer STEM based After School and Summer Camp Programs that include a variety of fun,
+                            engaging
+                            and educational activities.</p>
+                    </div>
                 </div>
-            </div>
+            </a>
             <div id='side-cubes'>
-                <div class='cube side-main-cube'>
-                    <img src='./assets/kids-switch.jpg' alt='kids playing' />
-                    <div class='cube-text cube-blue'>
-                        <h2>Enrolling for Summer Camp Now</h2>
+                <a href='./pages/programs/summer-camp.html' aria-label='summer camp'>
+                    <div class='cube side-main-cube'>
+                        <img src='./assets/kids-switch.jpg' alt='kids playing' />
+                        <div class='cube-text cube-blue'>
+                            <h2>Enrolling for Summer Camp Now</h2>
+                        </div>
                     </div>
-                </div>
-                <div class='cube side-main-cube'>
-                    <img src='./assets/mark-kids-building-lego.jpg' alt='kids building' />
-                    <div class='cube-text cube-purple'>
-                        <h2>Enrolling for After School Now</h2>
+                </a>
+                <a href='./pages/programs/after-school.html' aria-label='summer camp'>
+                    <div class='cube side-main-cube'>
+                        <img src='./assets/mark-kids-building-lego.jpg' alt='kids building' />
+                        <div class='cube-text cube-purple'>
+                            <h2>Enrolling for After School Now</h2>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
+        <!-- MOBILE VIEW ONLY -->
         <div id='mobile-reviews'>
             <div class='slides-div' id='slide-1'>
                 <div class='review img' id='img1'>
@@ -205,25 +216,31 @@
             </div>
         </div>
         <div id='under-main-cubes'>
+            <!-- ARTICLE CUBE -->
             <div class='cube small-cube'>
                 <img src='./assets/cartoon-style-medical-mask-vector.jpg' alt='mask' />
                 <div class='cube-text cube-orange'>
                     <p id='p1'>We're focused on the safety of your children, see how...</p>
                 </div>
             </div>
-            <div class='cube small-cube'>
-                <img src='./assets/kids-poke-tourney.jpg' alt='kids playing' />
-                <div class='cube-text cube-green'>
-                    <p id='p2'>Come and play in one of our Pokemon TCG events!</p>
+            <a href='./pages/events.html' aria-label='pokemon'>
+                <div class='cube small-cube'>
+                    <img src='./assets/kids-poke-tourney.jpg' alt='kids playing' />
+                    <div class='cube-text cube-green'>
+                        <p id='p2'>Come and play in one of our Pokemon TCG events!</p>
+                    </div>
                 </div>
-            </div>
-            <div class='cube small-cube'>
-                <img src='./assets/chass.jpg' alt='kids playing' />
-                <div class='cube-text cube-red'>
-                    <p id='p3'>Kids will think out of the box through our many stimulating activities.</p>
+            </a>
+            <a href='./pages/activities/all-activities.html' aria-label='pokemon'>
+                <div class='cube small-cube'>
+                    <img src='./assets/chass.jpg' alt='kids playing' />
+                    <div class='cube-text cube-red'>
+                        <p id='p3'>Kids will think out of the box through our many stimulating activities.</p>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
+
         <section class='slide-container'>
             <span class="slider-span" id="slider-span1"></span>
             <span class="slider-span" id="slider-span2"></span>
@@ -370,10 +387,76 @@
                     </div>
                     <a href='#slider-span7' class='slide-btn' id='button-7'></a>
                 </div>
-
             </div>
         </section>
+
+        <div id='under-main-cubes'>
+            <!-- ARTICLE CUBE -->
+            <div class='cube small-cube'>
+                <img src='./assets/cartoon-style-medical-mask-vector.jpg' alt='mask' />
+                <div class='cube-text cube-orange'>
+                    <p id='p1'>We're focused on the safety of your children, see how...</p>
+                </div>
+            </div>
+            <a href='./pages/events.html' aria-label='pokemon'>
+                <div class='cube small-cube'>
+                    <img src='./assets/kids-poke-tourney.jpg' alt='kids playing' />
+                    <div class='cube-text cube-green'>
+                        <p id='p2'>Come and play in one of our Pokemon TCG events!</p>
+                    </div>
+                </div>
+            </a>
+            <a href='./pages/activities/all-activities.html' aria-label='pokemon'>
+                <div class='cube small-cube'>
+                    <img src='./assets/chass.jpg' alt='kids playing' />
+                    <div class='cube-text cube-red'>
+                        <p id='p3'>Kids will think out of the box through our many stimulating activities.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div id='contact-bottom'>
+            <hr>
+            <div id='social'>
+                <h3>Connect With Us</h3>
+                <div id='social-icons'>
+                    <a aria-label='facebook' href='https://www.facebook.com/' target='_'>
+                        <img id='facebook' src='./assets/fb.png' alt='facebook icon'>
+                    </a>
+                    <a aria-label='twitter' href='https://twitter.com/' target='_'>
+                        <img id='twitter' src='./assets/twitter-icon-white-png-25.jpg' alt='twitter icon'>
+                    </a>
+                    <a aria-label='levelup' href='' target='_'>
+                        <img id='levelup' src='./assets/item-logo.jpg' alt='levelup icon'>
+                    </a>
+                </div>
+                <a aria-label='googleMap'
+                    href='https://www.google.com/maps/place/Level+Up!+Innovative+STEMulation,+1311+Matthews-Mint+Hill+Rd,+Matthews,+NC+28105/@35.1191861,-80.7016818,19z/data=!4m2!3m1!1s0x885426a98b6e4b35:0xae64fe4f8bde29ae'
+                    target='_'>
+                    <p>1311 Matthews-Mint Hill Rd</p>
+                    <p>Matthews, NC 28105</p>
+                </a>
+                <a aria-label='email' href='mailto:Info@LevelUpInSTEM.com'>
+                    <p id='emailus'>Email Us</p>
+                </a>
+                <a aria-label='phone' href='tel:704-443-7016'>
+                    <p>Call Us</p>
+                </a>
+            </div>
+        </div>
+        <footer>
+            <div id='top-footer'>
+                <a aria-label='events' href='./pages/events.html'>Events</a>
+                <a aria-label='about' href='./pages/about.html'>About</a>
+            </div>
+            <div id='bottom-footer'>
+                <a aria-label='events' href='./pages/events.html'>The Item Shop*</a>
+                <a aria-label='events' href='./pages/events.html'>The Item Shop*</a>
+            </div>
+        </footer>
     </main>
+
     <script src='./index.js'></script>
 </body>
 

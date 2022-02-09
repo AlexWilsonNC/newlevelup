@@ -13,11 +13,12 @@
     <link rel="stylesheet" href="../css/activities.css">
     <link rel="stylesheet" href="../css/events.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/all-docs.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap"
         rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
 </head>
 
@@ -40,9 +41,9 @@
             <p>Home</p>
         </a>
         <a class='nav-tile purple-tile' aria-label='afterschool' href='./programs/after-school.html'>
-                <div class='nav-color purple'></div>
-                <i class="fa fa-pen"></i>
-                <p>After School</p>
+            <div class='nav-color purple'></div>
+            <i class="fa fa-pen"></i>
+            <p>After School</p>
         </a>
         <a class='nav-tile blue-tile' aria-label='summercamp' href='./programs/summer-camp.html'>
             <div class='nav-color blue'></div>
@@ -54,7 +55,7 @@
             <i class="fas fa-calendar"></i>
             <p>Activities</p>
         </a>
-        <a class='nav-tile green-tile active-tile active-events' aria-label='events' href='./events.html'>
+        <a class='nav-tile green-tile' aria-label='events' href='./events.html'>
             <div class='nav-color green'></div>
             <i class="fas fa-gamepad"></i>
             <p>Events</p>
@@ -71,7 +72,9 @@
         </a>
     </nav>
     <div id='right-nav-drop'>
-        <a href='../index.html'><p id='item-shop-label'>LEVEL UP</p></a>
+        <a href='../index.html'>
+            <p id='item-shop-label'>LEVEL UP</p>
+        </a>
         <i id='nav-collapse' class='fas fa-bars'></i>
         <div id='dropdown-content'>
             <a aria-label='home' href='../index.html'>Home</a>
@@ -112,94 +115,44 @@
         </div>
     </aside>
 
-    <main class='activ-main'>
-        <!--activities.css-->
-        <div class='activities-side'>
-            <ul>
-                <a><li class='poketcg-li active-li-top'>Pokemon TCG</li></a>
-                <a><li class='esports-li'>eSports</li></a>
-                <a><li class='legobuilding-li'>Lego Building</li></a>
-                <a><li class='beyblade-li'>Beyblade</li></a>
-                <a><li class='tournaments-li'>Tournaments</li></a>
-                <a><li class='bottom-li registration-li'>Registration</li></a>
-            </ul>
-        </div>
-        <div class='main-activ'>
-        <!-- Pokemon TCG -->
-        <div class='activ-poke-tcg'>
-            <h1 class='activ-h1'>Pokemon TCG Events</h1>
-            <hr class='activ-hr'>
-            <p class='activ-first-p'>One tournament per month, weekly ranking events.</p>
-            <div class='activ-buttons-bottom center'>
-                <!-- <button class='blu-btn'>Register for Event</button> -->
-                <button class='pink-btn'>Current Pokemon Rankings</button>
-            </div>
-            <div class='event-block-section'>
-                <div class='event-block'>
-                    <h2 class='event-name'>Event Name</h2>
-                    <hr>
-                    <p>Date:</p>
-                    <p>Format:</p>
-                    <div class='prize-reg-btn'>
-                        <p>Prizes:</p>
-                        <!-- <button>Register</button> -->
-                    </div>
-                </div>
-                <div class='event-block'>
-                    <h2 class='event-name'>Event Name</h2>
-                    <hr>
-                    <p>Date:</p>
-                    <p>Format:</p>
-                    <div class='prize-reg-btn'>
-                        <p>Prizes:</p>
-                        <!-- <button>Register</button> -->
-                    </div>
-                </div>
-                <div class='event-block'>
-                    <h2 class='event-name'>Event Name</h2>
-                    <hr>
-                    <p>Date:</p>
-                    <p>Format:</p>
-                    <div class='prize-reg-btn'>
-                        <p>Prizes:</p>
-                        <!-- <button>Register</button> -->
-                    </div>
-                </div>
-                <div class='event-block'>
-                    <h2 class='event-name'>Event Name</h2>
-                    <hr>
-                    <p>Date:</p>
-                    <p>Format:</p>
-                    <div class='prize-reg-btn'>
-                        <p>Prizes:</p>
-                        <!-- <button>Register</button> -->
-                    </div>
+    <main class='both-docs'>
+        <!-- styles.css -->
+        <div>
+            <div class='cube side-main-cube'>
+                <img src='../assets/sign-docu.jpg' alt='kids playing' />
+                <div class='cube-text cube-purple'>
+                    <h2>Sign up for After School</h2>
                 </div>
             </div>
-        </div>
-
-        <!-- EsPORTS -->
-        <div class='activ-esports hide-that-activity'>
-            <h1 class='activ-h1'>Level Up with eSports</h1>
-            <hr class='activ-hr'>
-            <p class='activ-first-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <div class='img-and-p'>
-                <img class='activ-img' src='../../assets/kids-switch.jpg' alt='kids playing' />
-                <p class='activ-first-p beside-img'>incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                    veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                    in laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                    non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laboru</p>
+            <div class='bullets'>
+                <p class='program-dets purple-dets'>Program Details</p>
+                <p class='program-dets-list'>- Pokemon TCG</p>
+                <p class='program-dets-list'>- eSports</p>
+                <p class='program-dets-list'>- Lego Building</p>
+                <p class='program-dets-list'>- Beyblade</p>
+                <p class='program-dets-list'>- Robotics</p>
+                <p class='program-dets-list'>- Tournaments</p>
             </div>
         </div>
-    </div>
-    <!-- <div id='contact-bottom'>
+        <div>
+            <div class='cube side-main-cube'>
+                <img src='../assets/sign-docu.jpg' alt='kids playing' />
+                <div class='cube-text cube-blue'>
+                    <h2>Sign up for Summer Camp</h2>
+                </div>
+            </div>
+            <div class='bullets'>
+                <p class='program-dets blue-dets'>Tuition Includes</p>
+                <p class='program-dets-list small-list'>- 
+                    Dedicated Homework Time and Assistance, with the goal of completion.</p>
+                <p class='program-dets-list small-list'>- Dedicated Reading Time based on grade level.</p>
+                <p class='program-dets-list small-list'>- 
+                    Early Release Days, Teacher Workdays, Seasonal Breaks, and certain holidays for no additional charge.</p>
+                <p class='program-dets-list small-list'>- 
+                    Pick-up until 630PM, and no late fee as long as we're notified if you're running late.</p>
+            </div>
+        </div>
+        <!-- <div id='contact-bottom'>
         <div id='social'>
             <h3>Connect With Us</h3>
             <div id='social-icons'>
@@ -237,8 +190,8 @@
             <a aria-label='events' href='./pages/events.html'>The Item Shop*</a>
         </div>
     </footer> -->
-</main>
-<script src="../../js/activities.js"></script>
+    </main>
+    <script src="../../js/activities.js"></script>
     <script src="../index.js"></script>
 </body>
 

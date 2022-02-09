@@ -74,8 +74,18 @@ main {
 }
 #biggest-cube {
     width: 520px;height:400px;
-    background-color: rgb(49, 49, 49);
     border-radius: 10px;
+}
+.yeppers {
+    background-color: rgb(61, 61, 61);
+}
+.just-text {
+    background-color: rgb(255, 215, 215);
+}
+.just-text p {
+    margin: 0px auto;
+    word-wrap: break-word;
+    text-align: start;
 }
 #biggest-cube img {
     object-fit: cover;
@@ -89,6 +99,10 @@ main {
 #biggest-cube p {
     font-size: 17px;
     margin: 0px 15px;
+}
+.both-docs {
+    display: flex;
+    justify-content: space-around;
 }
 #side-cubes {
     display: flex;

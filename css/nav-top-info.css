@@ -11,7 +11,7 @@
     margin: 5px 3px;
 }
 .left-panel {
-    background-image: url(../assets/robot.jpeg);
+    background-image: url(../assets/Screenshot\ 2022-02-09\ 123521.png);
     background-size: cover;
     background-position: center;
 }
@@ -21,7 +21,7 @@
     background-position: center;
 }
 .right-panel {
-    background-image: url(../assets/maxresdefault.jpg);
+    background-image: url(../assets/robot.jpeg);
     background-size: cover;    background-position: center;
 }
 

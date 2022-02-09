@@ -1,0 +1,33 @@
+.bullets {
+    width: 400px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 38px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+.program-dets {
+    padding: 15px;
+    font-size: 28px;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.purple-dets {
+    background-color: rgb(143, 0, 143);
+}
+.blue-dets {
+    background-color: rgb(0, 119, 255);
+}
+.program-dets-list {
+    margin-bottom: 25px;
+    font-size: 27px;
+    padding: 0px 20px;
+}
+.small-list {
+    font-size: 20px;
+}
