@@ -157,6 +157,7 @@ main {
 #p1 {font-size: 20px;}
 #p2 {font-size: 20px;}
 #p3 {font-size: 17.2px;}
+#p4 {font-size: 17.5px;}
 
 /* @media screen and (max-width: 1300px) {
     main {
@@ -173,10 +174,16 @@ main {
         margin-top: 0px;
     }
     .top-main {
+        width: 100%;
         flex-direction: column;
         align-items: center;
         margin-top: 15px;
         margin-bottom: 0px;
+        margin-left: 20px;
+        /* DELETE */
+    }
+    .under-main-cubes {
+        margin-left: 20px;
     }
     .cube {
         margin-bottom: 10px;

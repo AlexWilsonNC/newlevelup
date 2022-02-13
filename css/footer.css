@@ -28,10 +28,10 @@ footer * {
     justify-content: space-around;
     margin: 10px 0px;
 }
-.right-bottom-fotter {
+/* .right-bottom-fotter {
     text-align: start;
     margin-right: 60px;
-}
+} */
 .uparrow {
     width: 37px;
     position: fixed;
@@ -46,9 +46,6 @@ footer * {
     opacity: 0.85;
 }
 
-#free-ship {
-    display: none;
-}
 @media screen and (prefers-reduced-motion: no-preference) {
     html {
       scroll-behavior: smooth;
@@ -63,6 +60,12 @@ footer * {
     }
     #free-ship {
         display: block;
+    }
+}
+@media screen and (max-width: 800px) {
+    .footer-width {
+        width: 110%;
+        margin-left: -20px;
     }
 }
 

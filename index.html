@@ -29,7 +29,7 @@
     </div>
     <div class='top-logo'>
         <!--nav-main.css-->
-        <img src='./assets/levelup-trans.png' alt='levelup logo' />
+        <img src='./assets/logo-main.jpg' alt='levelup logo' />
     </div>
     <nav class='main-nav'>
         <!--nav-main.css-->
@@ -98,34 +98,36 @@
             <i class="fas fa-user"></i>
             <p>Login</p>
         </div> -->
-        <a aria-label='apply' href='./pages/all-docs.html'  class='aside-button aside-green'>
-                <i class="fas fa-clipboard"></i>
-                <p>Apply</p>
+        <a aria-label='apply' href='./pages/all-docs.html' class='aside-button aside-green'>
+            <i class="fas fa-clipboard"></i>
+            <p>Apply</p>
         </a>
         <div class='aside-button aside-grey'>
             <i class="fas fa-door-open"></i>
             <p>Visit</p>
         </div>
-        <div class='aside-button no-bottom-border'>
+        <div class='aside-button aside-blue'>
             <i class="fas fa-comment"></i>
             <p>Chat</p>
         </div>
+        <a aria-label='procare' href='https://schools.procareconnect.com/login' target='_'
+            class='aside-button no-bottom-border'>
+            <img src='./assets/procare.png' />
+        </a>
     </aside>
 
     <main>
         <!--style.css-->
         <div class='top-main'>
-            <a href='./pages/programs/summer-camp.html' aria-label='summer camp'>
-                <div id='biggest-cube' class='cube yeppers'>
-                    <img src='./assets/laser-tag.jpg' alt='kids playing' />
-                    <div class='cube-text'>
-                        <h1>Welcome to LEVEL UP!</h1>
-                        <p>We offer STEM based After School and Summer Camp Programs that include a variety of fun,
-                            engaging
-                            and educational activities.</p>
-                    </div>
+            <div id='biggest-cube' class='cube yeppers'>
+                <img src='./assets/laser-tag.jpg' alt='kids playing' />
+                <div class='cube-text'>
+                    <h1>Welcome to LEVEL UP!</h1>
+                    <p>We offer STEM based After School and Summer Camp programs that include a variety of fun,
+                        engaging
+                        and educational activities.</p>
                 </div>
-            </a>
+            </div>
             <div id='side-cubes'>
                 <a href='./pages/programs/summer-camp.html' aria-label='summer camp'>
                     <div class='cube side-main-cube'>
@@ -217,17 +219,19 @@
         </div>
         <div id='under-main-cubes'>
             <!-- ARTICLE CUBE -->
-            <div class='cube small-cube'>
-                <img src='./assets/cartoon-style-medical-mask-vector.jpg' alt='mask' />
+            <a class='cube small-cube' aria-label='article' href='./pages/blogs/blog1.html'>
+                <img src='./assets/logo-main-wide.png' alt='logo' />
                 <div class='cube-text cube-orange'>
-                    <p id='p1'>We're focused on the safety of your children, see how...</p>
+                    <p id='p1'>Get to know us more, read our mission statement here.</p>
                 </div>
-            </div>
+            </a>
             <a href='./pages/events.html' aria-label='pokemon'>
                 <div class='cube small-cube'>
                     <img src='./assets/kids-poke-tourney.jpg' alt='kids playing' />
                     <div class='cube-text cube-green'>
-                        <p id='p2'>Come and play in one of our Pokemon TCG events!</p>
+                        <!-- <p id='p2'>Come and play in one of our Pokemon TCG events!</p> -->
+                        <p id='p2'>Look forward to events.</p>
+                        <p id='p2'>Coming soon!</p>
                     </div>
                 </div>
             </a>
@@ -241,7 +245,7 @@
             </a>
         </div>
 
-        <section class='slide-container'>
+        <!-- <section class='slide-container'>
             <span class="slider-span" id="slider-span1"></span>
             <span class="slider-span" id="slider-span2"></span>
             <span class="slider-span" id="slider-span3"></span>
@@ -388,35 +392,36 @@
                     <a href='#slider-span7' class='slide-btn' id='button-7'></a>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <div id='under-main-cubes'>
             <!-- ARTICLE CUBE -->
-            <div class='cube small-cube'>
-                <img src='./assets/cartoon-style-medical-mask-vector.jpg' alt='mask' />
-                <div class='cube-text cube-orange'>
-                    <p id='p1'>We're focused on the safety of your children, see how...</p>
-                </div>
-            </div>
-            <a href='./pages/events.html' aria-label='pokemon'>
+            <a href='./pages/programs/after-school.html' aria-label='pokemon'>
                 <div class='cube small-cube'>
-                    <img src='./assets/kids-poke-tourney.jpg' alt='kids playing' />
-                    <div class='cube-text cube-green'>
-                        <p id='p2'>Come and play in one of our Pokemon TCG events!</p>
+                    <img src='./assets/presentations.JPG' alt='kids playing' />
+                    <div class='cube-text cube-purple'>
+                        <p id='p4'>An After School continued education is key to a child's growth.</p>
                     </div>
                 </div>
             </a>
-            <a href='./pages/activities/all-activities.html' aria-label='pokemon'>
+            <a href='#' aria-label='pokemon'>
                 <div class='cube small-cube'>
-                    <img src='./assets/chass.jpg' alt='kids playing' />
-                    <div class='cube-text cube-red'>
-                        <p id='p3'>Kids will think out of the box through our many stimulating activities.</p>
+                    <img src='./assets/pickup.jpg' alt='kids playing' />
+                    <div class='cube-text yeppers'>
+                        <p id='p2'>We pick up students from multiple schools in the area.</p>
                     </div>
+                </div>
+            </a>
+            <a class='cube small-cube' aria-label='summer' href='./pages/programs/summer-camp.html'>
+                <img src='./assets/outside-sc.jpg' alt='mask' />
+                <div class='cube-text cube-blue'>
+                    <p id='p1'>Give your kids a summer they'll remember for life!</p>
                 </div>
             </a>
         </div>
 
         <div id='contact-bottom'>
+            <br>
             <hr>
             <div id='social'>
                 <h3>Connect With Us</h3>

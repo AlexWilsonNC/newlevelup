@@ -48,12 +48,21 @@ aside {
     background-color: rgb(143, 0, 143);
     color: white;
 }
-.no-bottom-border,
-.no-bottom-border i {
+.aside-blue,
+.aside-blue i {
     background-color: rgb(0, 119, 255);
-    border-bottom-right-radius: 18px;
     color: white;
+}
+.no-bottom-border{
+    background-color: white;
+    border-bottom-right-radius: 18px;
     border: none;
+}
+.no-bottom-border img {
+    object-fit: cover;
+    width: 100%;
+    overflow: hidden;
+    border-bottom-right-radius: 18px;
 }
 .aside-green:hover,
 .aside-green:hover i,
@@ -61,9 +70,13 @@ aside {
 .aside-purple:hover i,
 .aside-grey:hover,
 .aside-grey:hover i,
+.aside-blue:hover,
+.aside-blue:hover i{
+    color: black;
+}
 .no-bottom-border:hover,
 .no-bottom-border:hover i {
-    color: black;
+    color: rgb(73, 73, 73);
 }
 @media screen and (max-width: 800px) {
     aside {
