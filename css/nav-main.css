@@ -3,9 +3,10 @@
     top: 0;
     left: 12px;
     position: fixed;
+    margin-top: -15px;
 }
 .top-logo img {
-    width: 225px;
+    width: 220px;
 }
 
 #right-nav-drop {
