@@ -122,14 +122,6 @@
 .trip-procare:after {
     background-color: orange;
 }
-
-.visit-drop-button {
-    background-color:rgb(143, 0, 143);
-}
-.procare-drop-button {
-    background-color: rgb(255, 187, 0);
-
-}
 #dropdown-content a {
     color: #000;
     font-size: 28px;
