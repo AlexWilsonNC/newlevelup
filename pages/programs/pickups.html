@@ -10,15 +10,13 @@
     <link rel="stylesheet" href="../../css/nav-main.css">
     <link rel="stylesheet" href="../../css/nav-top-info.css">
     <link rel="stylesheet" href="../../css/nav-side.css">
-    <link rel="stylesheet" href="../../css/activities.css">
     <link rel="stylesheet" href="../../css/footer.css">
-    <link rel="stylesheet" href="../../css/articles.css">
+    <link rel="stylesheet" href="../../css/activities.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
 </head>
 
@@ -40,12 +38,13 @@
             <i class="fa fa-home"></i>
             <p>Home</p>
         </a>
-        <a class='nav-tile purple-tile' aria-label='afterschool' href='../programs/after-school.html'>
+        <a class='nav-tile purple-tile active-tile active-afterschool' aria-label='afterschool'
+            href='./after-school.html'>
             <div class='nav-color purple'></div>
             <i class="fa fa-pen"></i>
             <p>After School</p>
         </a>
-        <a class='nav-tile blue-tile' aria-label='summercamp' href='../programs/summer-camp.html'>
+        <a class='nav-tile blue-tile' aria-label='summercamp' href='./summer-camp.html'>
             <div class='nav-color blue'></div>
             <i class="fas fa-power-off"></i>
             <p>Summer Camp</p>
@@ -60,7 +59,7 @@
             <i class="fas fa-gamepad"></i>
             <p>Events</p>
         </a>
-        <a class='nav-tile orange-tile active-tile active-blog' aria-label='blog' href='./blog-main.html'>
+        <a class='nav-tile orange-tile' aria-label='blog' href='../blogs/blog-main.html'>
             <div class='nav-color orange'></div>
             <i class="fas fa-align-left"></i>
             <p>Blog</p>
@@ -85,11 +84,11 @@
             <hr id='sc-hr'>
             <a aria-label='activities' href='../activities/all-activities.html'>Activities</a>
             <hr id='activ-hr'>
-            <a aria-label='events' href='../events.html'>Events</a>
+            <a aria-label='events' href='../../pages/events.html'>Events</a>
             <hr id='events-hr'>
-            <a aria-label='blog' href='./blog-main.html'>Blog</a>
+            <a aria-label='blog' href='../blogs/blog-main.html'>Blog</a>
             <hr id='blog-hr'>
-            <a aria-label='staff' href='../staff.html'>Staff</a>
+            <a aria-label='staff' href='../../pages/staff.html'>Staff</a>
             <hr id='staff-hr'>
             <!-- <a aria-label='levelup' href='https://levelupinstem.com/' target='_'>Item Shop</a> -->
         </div>
@@ -112,94 +111,34 @@
             <i class="fas fa-comment"></i>
             <p>Chat</p>
         </div>
-        <a aria-label='procare' href='https://schools.procareconnect.com/login' target='_' class='aside-button no-bottom-border'>
+        <a aria-label='procare' href='https://schools.procareconnect.com/login' target='_'
+            class='aside-button no-bottom-border'>
             <img src='../../assets/procare.png' />
         </a>
     </aside>
+
     <main class='activ-main'>
-        <!--activities.css-->
-        <!-- <div class='activ-dropdown-mobile'>
-
+        <div class='activities-side'>
+            <ul>
+                <a>
+                    <li class='poketcg-li active-li-top'>CMS</li>
+                </a>
+                <a>
+                    <li class='esports-li'>UCPS</li>
+                </a>
+                <a>
+                    <li class='legobuilding-li'>Charter</li>
+                </a>
+            </ul>
         </div>
-        <div class='external-articles'>
-            <div class='external-article'>
-
-            </div>
-            <div class='external-article'>
-
-            </div>
-            <div class='external-article'>
-
-            </div>
-        </div> -->
         <div class='main-activ'>
-            <a aria-label='blog' href='./blog1.html'>
-                <div class='article-box'>
-                    <img src='../../assets/levelup.png' alt='logo' />
-                    <div class='article-info'>
-                        <p class='article-box-name'>
-                            Welcome to Level Up
-                        </p>
-                        <p class='article-meta'>
-                            Learn about our initiative and how your kids will be engaged in our stem-based program.
-                        </p>
-                    </div>
-                </div>
-            </a>
-            <!-- <div class='article-box'>
-
+            <!-- Pokemon TCG -->
+            <div class='activ-poke-tcg'>
+                <h2>Elementary Schools</h2>
             </div>
-            <div class='article-box'>
-
-            </div>
-            <div class='article-box'>
-
-            </div> -->
         </div>
     </main>
-    <div class='footer-width'>
-        <hr>
-        <div id='contact-bottom'>
-            <div id='social'>
-                <h3>Connect With Us</h3>
-                <div id='social-icons'>
-                    <a aria-label='facebook' href='https://www.facebook.com/' target='_'>
-                        <img id='facebook' src='../../assets/fb.png' alt='facebook icon'>
-                    </a>
-                    <a aria-label='twitter' href='https://twitter.com/' target='_'>
-                        <img id='twitter' src='../../assets/twitter-icon-white-png-25.jpg' alt='twitter icon'>
-                    </a>
-                    <a aria-label='levelup' href='' target='_'>
-                        <img id='levelup' src='../../assets/item-logo.jpg' alt='levelup icon'>
-                    </a>
-                </div>
-                <a aria-label='googleMap'
-                    href='https://www.google.com/maps/place/Level+Up!+Innovative+STEMulation,+1311+Matthews-Mint+Hill+Rd,+Matthews,+NC+28105/@35.1191861,-80.7016818,19z/data=!4m2!3m1!1s0x885426a98b6e4b35:0xae64fe4f8bde29ae'
-                    target='_'>
-                    <p>1311 Matthews-Mint Hill Rd</p>
-                    <p>Matthews, NC 28105</p>
-                </a>
-                <a aria-label='email' href='mailto:Info@LevelUpInSTEM.com'>
-                    <p id='emailus'>Email Us</p>
-                </a>
-                <a aria-label='phone' href='tel:704-443-7016'>
-                    <p>Call Us</p>
-                </a>
-            </div>
-        </div>
-        <footer>
-            <div id='top-footer'>
-                <a aria-label='events' href='./pages/events.html'>Events</a>
-                <a aria-label='about' href='./pages/about.html'>About</a>
-            </div>
-            <div id='bottom-footer'>
-                <a aria-label='events' href='./pages/events.html'>The Item Shop*</a>
-                <a aria-label='events' href='./pages/events.html'>The Item Shop*</a>
-            </div>
-        </footer>
-    </div>
-
-    <script src='../index.js'></script>
+    <script src='../../index.js'></script>
 </body>
 
 </html>
