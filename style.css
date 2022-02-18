@@ -61,7 +61,10 @@ main {
     justify-content: center;
 }
 .cube-text h1,h2{text-align: center;}
-.cube-text p {align-items: start;margin: 0px 10px;}
+.cube-text p {
+    align-items: start;
+    margin: 0px 10px;
+}
 .activity-cube img {
     width: 340px; height: 230px;
     border-bottom-right-radius: 10px;
@@ -340,12 +343,12 @@ main {
         width: 94%;height:300px;
     }
     #biggest-cube h1 {
-        font-size: 26px;
-        margin: 25px 0px 10px;
+        font-size: 30px;
+        margin: 7px 0px 0px;
     }
     #biggest-cube p {
         font-size: 15px;
-        margin: 0px 15px 25px;
+        padding: 10px 5px;
     }
     #side-cubes {
         display: flex;
@@ -376,5 +379,8 @@ main {
     #center-visit p {
         width: 94%;
         margin-top: 15px;
+    }
+    .cube-text {
+        height: 50%;
     }
 }
