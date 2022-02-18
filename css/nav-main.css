@@ -68,7 +68,7 @@
 #staff-hr {
     border: 0.5px solid rgb(226, 185, 0);  
 }
-.apply-drop-button,
+/* .apply-drop-button,
 .visit-drop-button,
 .procare-drop-button {
     padding: 15px 10px;
@@ -84,7 +84,45 @@
 }
 .apply-drop-button {
     background-color: rgb(0, 160, 0);
+} */
+
+.add-to-trip {
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 15px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: transparent;
+    width: 60%;
 }
+.add-to-trip:after {
+    content: "";
+    width: 103%;
+    z-index: -1;
+    position: absolute;
+    height: 107%;
+    top: 5px;
+    left: 5px;
+    border-radius: 10px;
+    transition: ease 0.35s;
+}
+.add-to-trip:hover:after { 
+  top: 0px;
+  left: 0px;
+  background-color: black;
+}
+.trip-apply:after {
+    background-color: rgb(0, 119, 255);
+}
+.trip-visit:after {
+    background-color: rgb(143, 0, 143);
+}
+.trip-procare:after {
+    background-color: orange;
+}
+
 .visit-drop-button {
     background-color:rgb(143, 0, 143);
 }

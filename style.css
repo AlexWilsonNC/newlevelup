@@ -373,4 +373,8 @@ main {
     .remove-mobile {
         display: none;
     }
+    #center-visit p {
+        width: 94%;
+        margin-top: 15px;
+    }
 }
