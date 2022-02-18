@@ -83,3 +83,19 @@
     font-size: 42px;
     font-family: 'Source Serif 4', sans-serif;
 }
+
+.activ-poke-tcg h3,
+.activ-esports h3,
+.activ-legos h3 {
+    font-size: 26px;
+}
+.space-top {
+    margin-top: 20px;
+}
+.tab {
+    margin-left: 15px;
+}
+.tab p {
+    font-size: 18px;
+    margin-top: 5px;
+}

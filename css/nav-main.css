@@ -162,6 +162,14 @@
 .yellow-tile:hover{background-color: rgb(226, 185, 0);}
 .orange-tile:hover{background-color: rgb(255, 102, 0);}
 
+@media screen and (min-width: 1980px) {
+    .nav-tile {
+        width: 80px;
+}
+@media screen and (min-width: 1600px) {
+    .nav-tile {
+        width: 90px;
+}
 @media screen and (max-width: 1300px) {
     .top-logo img {
         width: 180px;

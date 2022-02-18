@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="../css/nav-top-info.css">
     <link rel="stylesheet" href="../css/nav-side.css">
     <link rel="stylesheet" href="../css/activities.css">
+    <link rel="stylesheet" href="../css/all-docs.css">
     <link rel="stylesheet" href="../css/events.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/all-docs.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap"
@@ -31,7 +31,7 @@
     </div>
     <div class='top-logo'>
         <!--nav-main.css-->
-        <img src='../assets/levelup-trans.png' alt='levelup logo' />
+        <img src='../assets/logo-main.jpg' alt='levelup logo' />
     </div>
     <nav class='main-nav'>
         <!--nav-main.css-->
@@ -101,99 +101,89 @@
             <i class="fas fa-user"></i>
             <p>Login</p>
         </div> -->
-        <div class='aside-button aside-green'>
+        <a aria-label='apply' href='./all-docs.html' class='aside-button aside-green'>
             <i class="fas fa-clipboard"></i>
             <p>Apply</p>
-        </div>
-        <div class='aside-button aside-grey'>
+        </a>
+        <a class='aside-button aside-grey' aria-label='visit' href='./visit.html'>
             <i class="fas fa-door-open"></i>
             <p>Visit</p>
-        </div>
+        </a>
         <div class='aside-button aside-blue'>
             <i class="fas fa-comment"></i>
             <p>Chat</p>
         </div>
-        <a aria-label='procare' href='https://schools.procareconnect.com/login' target='_' class='aside-button no-bottom-border'>
-            <img src='../assets/procare.png'>
+        <a aria-label='procare' href='https://schools.procareconnect.com/login' target='_'
+            class='aside-button no-bottom-border'>
+            <img src='../assets/procare.png' />
+        </a>
     </aside>
 
     <main class='both-docs'>
-        <!-- styles.css -->
         <div>
-            <div class='cube side-main-cube'>
-                <img src='../assets/sign-docu.jpg' alt='kids playing' />
+            <a class='cube side-main-cube' aria-label='signup'
+                href='https://schools.procareconnect.com/register/037cc791-c736-4b0b-8fad-8bc554710e66' target="_" style='margin-bottom:35px;'>
+                <img src='../assets/sign-docu.jpg' alt='docu' />
                 <div class='cube-text cube-purple'>
                     <h2>Sign up for After School</h2>
                 </div>
-            </div>
-            <div class='bullets'>
-                <p class='program-dets purple-dets'>Program Details</p>
-                <p class='program-dets-list'>- Pokemon TCG</p>
-                <p class='program-dets-list'>- eSports</p>
-                <p class='program-dets-list'>- Lego Building</p>
-                <p class='program-dets-list'>- Beyblade</p>
-                <p class='program-dets-list'>- Robotics</p>
-                <p class='program-dets-list'>- Tournaments</p>
-            </div>
+            </a>
+            <a class='link-cubes small-infos cube-purple more-top' href='./programs/after-school.html' aria-label='afters' style='padding:5px 120px; margin:0px 0px 0px 9px;'>Learn more...</a>
         </div>
         <div>
-            <div class='cube side-main-cube'>
-                <img src='../assets/sign-docu.jpg' alt='kids playing' />
+            <div class='cube side-main-cube' style='margin-bottom:35px;'>
+                <img src='../assets/sign-docu.jpg' alt='docu' />
                 <div class='cube-text cube-blue'>
                     <h2>Sign up for Summer Camp</h2>
                 </div>
             </div>
-            <div class='bullets'>
-                <p class='program-dets blue-dets'>Tuition Includes</p>
-                <p class='program-dets-list small-list'>- 
-                    Dedicated Homework Time and Assistance, with the goal of completion.</p>
-                <p class='program-dets-list small-list'>- Dedicated Reading Time based on grade level.</p>
-                <p class='program-dets-list small-list'>- 
-                    Early Release Days, Teacher Workdays, Seasonal Breaks, and certain holidays for no additional charge.</p>
-                <p class='program-dets-list small-list'>- 
-                    Pick-up until 630PM, and no late fee as long as we're notified if you're running late.</p>
-            </div>
+            <a class='link-cubes small-infos cube-blue more-top' href='./programs/summer-camp.html' aria-label='summerc' style='padding:5px 120px; margin:0px 0px 0px 9px;'>Learn more...</a>
         </div>
-        <!-- <div id='contact-bottom'>
-        <div id='social'>
-            <h3>Connect With Us</h3>
-            <div id='social-icons'>
-                <a aria-label='facebook' href='https://www.facebook.com/' target='_'>
-                    <img id='facebook' src='./assets/fb.png' alt='facebook icon'>
-                </a>
-                <a aria-label='twitter' href='https://twitter.com/' target='_'>
-                    <img id='twitter' src='./assets/twitter-icon-white-png-25.jpg' alt='twitter icon'>
-                </a>
-                <a aria-label='levelup' href='' target='_'>
-                    <img id='levelup' src='./assets/item-logo.jpg' alt='levelup icon'>
-                </a>
-            </div>
-            <a aria-label='googleMap'
-                href='https://www.google.com/maps/place/Level+Up!+Innovative+STEMulation,+1311+Matthews-Mint+Hill+Rd,+Matthews,+NC+28105/@35.1191861,-80.7016818,19z/data=!4m2!3m1!1s0x885426a98b6e4b35:0xae64fe4f8bde29ae'
-                target='_'>
-                <p>1311 Matthews-Mint Hill Rd</p>
-                <p>Matthews, NC 28105</p>
-            </a>
-            <a aria-label='email' href='mailto:Info@LevelUpInSTEM.com'>
-                <p id='emailus'>Email Us</p>
-            </a>
-            <a aria-label='phone' href='tel:704-443-7016'>
-                <p>Call Us</p>
-            </a>
-        </div>
-    </div>
-    <footer>
-        <div id='top-footer'>
-            <a aria-label='events' href='./pages/events.html'>Events</a>
-            <a aria-label='about' href='./pages/about.html'>About</a>
-        </div>
-        <div id='bottom-footer'>
-            <a aria-label='events' href='./pages/events.html'>The Item Shop*</a>
-            <a aria-label='events' href='./pages/events.html'>The Item Shop*</a>
-        </div>
-    </footer> -->
     </main>
-    <script src="../../js/activities.js"></script>
+    <main>
+        <div id='contact-bottom'>
+            <br>
+            <hr>
+            <div id='social'>
+                <h3>Connect With Us</h3>
+                <div id='social-icons'>
+                    <a aria-label='facebook' href='https://www.facebook.com/' target='_'>
+                        <img id='facebook' src='../assets/fb.png' alt='facebook icon'>
+                    </a>
+                    <a aria-label='twitter' href='https://twitter.com/' target='_'>
+                        <img id='twitter' src='../assets/twitter-icon-white-png-25.jpg' alt='twitter icon'>
+                    </a>
+                    <a aria-label='levelup' href='' target='_'>
+                        <img id='levelup' src='../assets/item-logo.jpg' alt='levelup icon'>
+                    </a>
+                </div>
+                <a aria-label='googleMap'
+                    href='https://www.google.com/maps/place/Level+Up!+Innovative+STEMulation,+1311+Matthews-Mint+Hill+Rd,+Matthews,+NC+28105/@35.1191861,-80.7016818,19z/data=!4m2!3m1!1s0x885426a98b6e4b35:0xae64fe4f8bde29ae'
+                    target='_'>
+                    <p>1311 Matthews-Mint Hill Rd</p>
+                    <p>Matthews, NC 28105</p>
+                </a>
+                <a aria-label='email' href='mailto:Info@LevelUpInSTEM.com'>
+                    <p id='emailus'>Email Us</p>
+                </a>
+                <a aria-label='phone' href='tel:704-443-7016'>
+                    <p>Call Us</p>
+                </a>
+            </div>
+        </div>
+        <footer>
+            <div id='top-footer'>
+                <a aria-label='events' href='./events.html'>Events</a>
+                <a aria-label='about' href='./about.html'>About</a>
+            </div>
+            <div id='bottom-footer'>
+                <a aria-label='events' href='./events.html'>The Item Shop*</a>
+                <a aria-label='events' href='./events.html'>The Item Shop*</a>
+            </div>
+        </footer>
+    </main>
+
+    <script src="../js/activities.js"></script>
     <script src="../index.js"></script>
 </body>
 

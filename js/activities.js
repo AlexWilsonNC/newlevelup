@@ -18,24 +18,60 @@ pokeLi.addEventListener('click', function showActivity1() {
     poke.style.display = 'block';
     eSportLi.classList.remove('active-li');
     eSpor.style.display = 'none';
+    legoBuildLi.classList.remove('active-li');
+    legoB.style.display= 'none';
+    beybladeLi.classList.remove('active-li');
+    beyblade.style.display = 'none';
+    roboticsLi.classList.remove('active-li');
+    robo.style.display = 'none';
 })
 eSportLi.addEventListener('click', function showActivity2() {
     pokeLi.classList.remove('active-li-top');
     poke.style.display = 'none';
     eSportLi.classList.add('active-li');
     eSpor.style.display = 'block';
+    legoBuildLi.classList.remove('active-li');
+    legoB.style.display= 'none';
+    beybladeLi.classList.remove('active-li');
+    beyblade.style.display = 'none';
+    roboticsLi.classList.remove('active-li');
+    robo.style.display = 'none';
 })
 legoBuildLi.addEventListener('click', function showActivity3() {
-    // pokeLi.classList.add('active-li-top');
-    // poke.style.display = 'none';
+    pokeLi.classList.remove('active-li-top');
+    poke.style.display = 'none';
+    eSportLi.classList.remove('active-li');
+    eSpor.style.display = 'none';
+    legoBuildLi.classList.add('active-li');
+    legoB.style.display= 'block';
+    beybladeLi.classList.remove('active-li');
+    beyblade.style.display = 'none';
+    roboticsLi.classList.remove('active-li');
+    robo.style.display = 'none';
 })
 beybladeLi.addEventListener('click', function showActivity4() {
-    // pokeLi.classList.add('active-li-top');
-    // poke.style.display = 'none';
+    pokeLi.classList.remove('active-li-top');
+    poke.style.display = 'none';
+    eSportLi.classList.remove('active-li');
+    eSpor.style.display = 'none';
+    legoBuildLi.classList.remove('active-li');
+    legoB.style.display= 'none';
+    beybladeLi.classList.add('active-li');
+    beyblade.style.display = 'block';
+    roboticsLi.classList.remove('active-li');
+    robo.style.display = 'none';
 })
 roboticsLi.addEventListener('click', function showActivity5() {
-    // pokeLi.classList.add('active-li-top');
-    // poke.style.display = 'none';
+    pokeLi.classList.remove('active-li-top');
+    poke.style.display = 'none';
+    eSportLi.classList.remove('active-li');
+    eSpor.style.display = 'none';
+    legoBuildLi.classList.remove('active-li');
+    legoB.style.display= 'none';
+    beybladeLi.classList.remove('active-li');
+    beyblade.style.display = 'none';
+    roboticsLi.classList.add('active-li');
+    robo.style.display = 'block';
 })
 tounramentLi.addEventListener('click', function showActivity6() {
     // pokeLi.classList.add('active-li-top');
