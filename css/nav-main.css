@@ -19,9 +19,7 @@
     /* position: sticky; */
 }
 #right-nav-drop p {
-    margin-left: 25px;
     font-size: 28px;
-    font-family: 'Orbitron', sans-serif;
     color: white;
 }
 #nav-collapse {
@@ -70,6 +68,30 @@
 #staff-hr {
     border: 0.5px solid rgb(226, 185, 0);  
 }
+.apply-drop-button,
+.visit-drop-button,
+.procare-drop-button {
+    padding: 15px 10px;
+    text-align: center;
+    width: 30%;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.apply-drop-button p,
+.visit-drop-button p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.apply-drop-button {
+    background-color: rgb(0, 160, 0);
+}
+.visit-drop-button {
+    background-color:rgb(143, 0, 143);
+}
+.procare-drop-button {
+    background-color: rgb(255, 187, 0);
+
+}
 #dropdown-content a {
     color: #000;
     font-size: 28px;
@@ -80,6 +102,10 @@
     justify-content: space-around;
     align-items: center;
     position: relative;
+}
+#item-shop-label {
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 25px;
 }
 
 .main-nav {

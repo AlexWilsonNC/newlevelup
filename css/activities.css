@@ -161,4 +161,9 @@
     .activ-buttons-bottom {
         margin-left: 20px;
     }
+    .activities-side {
+        width: 70%;
+        height: 100%;
+        margin: 15px 0px;
+    }
 }

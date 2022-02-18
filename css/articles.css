@@ -99,3 +99,41 @@
     font-size: 18px;
     margin-top: 5px;
 }
+
+@media screen and (max-width: 800px) {
+    .article-box {
+        align-items: center;
+        margin-top: 15px;
+    }
+    .article-box:hover {
+        animation: pop 0.3s;
+    }
+    .article-box img {
+        height: 130px;
+        margin: 0px 15px;
+    }
+    .article-info {
+        width: 70%;
+    }
+    .article-box-name {
+        font-size: 26px;
+        text-align: start;
+        margin-bottom: 15px;
+    }
+    .article-meta {
+        font-size: 14px;
+    }
+
+    .external-article {
+        display: none;
+    }
+
+    .article-header {
+        font-size: 36px;
+        margin: 15px 0px;
+        text-align: center;
+    }
+    .article-body {
+        margin: 25px 10px 0px 10px;
+    }
+}
