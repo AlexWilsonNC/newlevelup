@@ -195,17 +195,36 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.register-sticky {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 24px;
+    width: 200px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    box-shadow: var(--cube-shadow);
+    position: fixed;
+    top: 0;
+    right: 25px;
+    transition: all ease 0.25s;
+}
 .link-cubes {
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
     font-size: 28px;
     padding: 5px;
     color: white;
     text-align: center;
-    box-shadow: var(--cube-shadow);
+    margin-left: 15px;
+    transition: all ease 0.25s;
 }
 .small-infos {
     margin-bottom: 35px;
+}
+.reg-btn:hover {
+    cursor: pointer;
+    filter: brightness(90%);
 }
 .top-of-cube {
     font-size: 28px;
@@ -218,6 +237,18 @@ main {
     padding: 5px;
 }
 .bottom-of-cube {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom-of-cube button {
+    width: 90%;
+    margin: 10px 0px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    border-style: none;
 }
 .bottom-of-cube p {
     font-size: 18px;
@@ -280,6 +311,10 @@ main {
     font-weight: bold;
     text-decoration: underline;
     margin-bottom: 10px;
+}
+.small-pen {
+    font-size: 22px;
+    margin-right: 10px;
 }
 
 @media screen and (min-width: 1600px) {

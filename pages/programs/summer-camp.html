@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../../css/nav-main.css">
     <link rel="stylesheet" href="../../css/nav-top-info.css">
     <link rel="stylesheet" href="../../css/nav-side.css">
+    <link rel="stylesheet" href="../../css/slideshow.css">
     <link rel="stylesheet" href="../../css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -119,31 +120,40 @@
     </aside>
 
     <main>
-        <!--style.css-->
-        <div class='top-main'>
-            <div id='biggest-cube' class='cube yeppers'>
-                <img src='../../assets/jumping.jpg' alt='kids playing' />
-                <div class='cube-text'>
-                    <p>Our STEM based Summer Camp features 11 awesome weeks of LEGO based robotics and building,
-                        physical sports, eSports, Pokemon TCG, innovative arts, crafts, swimming, and much more; for
-                        campers between the ages of 4-14!</p>
-                </div>
+        <a aria-label='signup' href='https://schools.procareconnect.com/register/037cc791-c736-4b0b-8fad-8bc554710e66' target='_'>
+            <button class='register-sticky reg-btn cube-blue'>
+                <p>Register for Summer Camp</p>
+            </button>
+        </a>
+        <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <img src="../../assets/outside-sc.jpg" style="width:100%;height:400px;overflow:hidden;object-fit:cover;">
+              <div class="text">Our STEM based Summer Camp features 11 awesome weeks of LEGO based robotics and building, physical sports, eSports, Pokemon TCG, innovative arts, crafts, swimming, and much more; for campers between the ages of 4-14!</div>
             </div>
-            <div id='side-cubes'>
-                <a class='cube side-main-cube' aria-label='signup' href='' target="_">
-                    <img src='../../assets/sign-docu.jpg' alt='kids playing' />
-                    <div class='cube-text cube-blue'>
-                        <h2>Sign up for Summer Camp</h2>
-                    </div>
-                </a>
-                <div class='cube side-main-cube'>
-                    <img src='../../assets/working-out.JPG' alt='kids building' />
-                    <div class='cube-text cube-blue'>
-                        <p id='p2'>Keeping 'em active through the Summer.</h2>
-                    </div>
-                </div>
-            </div>
+          
+            <div class="mySlides fade">
+              <img src="../../assets/tcg-crazy-face.JPG" style="width:100%;height:400px;overflow:hidden;object-fit:cover;">
+              <div class="text">Our STEM based Summer Camp features 11 awesome weeks of LEGO based robotics and building, physical sports, eSports, Pokemon TCG, innovative arts, crafts, swimming, and much more; for campers between the ages of 4-14!</div>            </div>
+          
+            <div class="mySlides fade">
+              <img src="../../assets/picnic.jpg" style="width:100%;height:400px;overflow:hidden;object-fit:cover;">
+              <div class="text">Our STEM based Summer Camp features 11 awesome weeks of LEGO based robotics and building, physical sports, eSports, Pokemon TCG, innovative arts, crafts, swimming, and much more; for campers between the ages of 4-14!</div>            </div>
+          
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
         </div>
+            
         <div id='under-main-cubes'>
             <div class='left-info-cubes'>
                 <div class='info-cubes small-infos'>
@@ -167,17 +177,17 @@
                         <p>Sardis Forest Swim Club: (Required for pool)</p>
                     </div>
                     <div class='bottom-of-cube'>
-                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSd9pfuusaZhvIOdESvzub0uZY1dMIlkpO1sniWRAx758Jy_KA/viewform' target='_' aria-label='form'>
+                        <button href='https://docs.google.com/forms/d/e/1FAIpQLSd9pfuusaZhvIOdESvzub0uZY1dMIlkpO1sniWRAx758Jy_KA/viewform' target='_' aria-label='form'>
                             <p>Guest Waiver Form</p>
-                        </a>
-                        <a href='https://levelupinstem.com/wp-content/uploads/2021/06/LU-SFSC-2021-Guest-Guidelines.pdf'
+                        </button>
+                        <button href='https://levelupinstem.com/wp-content/uploads/2021/06/LU-SFSC-2021-Guest-Guidelines.pdf'
                             target='_' aria-label='form'>
                             <p>Guest Guidlines</p>
-                        </a>
-                        <a href='../../assets/forms/parent-handbook.pdf'
+                        </button>
+                        <button href='../../assets/forms/parent-handbook.pdf'
                             target='_' aria-label='handbook'>
                             <p>Parent / Gaurdian Handbook</p>
-                        </a>
+                        </button>
                     </div>
                 </div>
                 <div class='sardis'>
@@ -200,13 +210,25 @@
                     <p class='needed-wide'>• Visit places within the community for awesome activities like bowling,
                         rollerskating, mini-golf, big jumping, movies, tabletop games, and wild life exhibitions.</p>
                 </div>
+                <button class='link-cubes reg-btn cube-blue' aria-label='signup'
+                    href='https://schools.procareconnect.com/register/037cc791-c736-4b0b-8fad-8bc554710e66' target="_">
+                        <p>Register for Summer Camp</p>
+                </button>
             </div>
         </div>
         <div id='contact-bottom'>
+            <br>
             <hr>
+            <br>
             <div id='social'>
-                <h3>Connect With Us</h3>
+                <h3>Connect With Us</h3><br>
                 <div id='social-icons'>
+                    <a aria-label='email' href='mailto:Info@LevelUpInSTEM.com'>
+                        <i class="fas fa-envelope" id='emailus'></i>
+                    </a>
+                    <a aria-label='phone' href='tel:704-443-7016'>
+                        <i class="fas fa-phone"></i>
+                    </a>
                     <a aria-label='facebook' href='https://www.facebook.com/' target='_'>
                         <img id='facebook' src='../../assets/fb.png' alt='facebook icon'>
                     </a>
@@ -216,33 +238,25 @@
                     <a aria-label='levelup' href='' target='_'>
                         <img id='levelup' src='../../assets/item-logo.jpg' alt='levelup icon'>
                     </a>
-                </div>
+                </div><hr class='social-hr'><br>
                 <a aria-label='googleMap'
                     href='https://www.google.com/maps/place/Level+Up!+Innovative+STEMulation,+1311+Matthews-Mint+Hill+Rd,+Matthews,+NC+28105/@35.1191861,-80.7016818,19z/data=!4m2!3m1!1s0x885426a98b6e4b35:0xae64fe4f8bde29ae'
                     target='_'>
-                    <p>1311 Matthews-Mint Hill Rd</p>
+                    <p class='top-adr'>1311 Matthews-Mint Hill Rd</p>
                     <p>Matthews, NC 28105</p>
-                </a>
-                <a aria-label='email' href='mailto:Info@LevelUpInSTEM.com'>
-                    <p id='emailus'>Email Us</p>
-                </a>
-                <a aria-label='phone' href='tel:704-443-7016'>
-                    <p>Call Us</p>
                 </a>
             </div>
         </div>
         <footer>
-            <div id='top-footer'>
-                <a aria-label='events' href='./pages/events.html'>Events</a>
-                <a aria-label='about' href='./pages/about.html'>About</a>
-            </div>
-            <div id='bottom-footer'>
-                <a aria-label='events' href='./pages/events.html'>The Item Shop*</a>
-                <a aria-label='events' href='./pages/events.html'>The Item Shop*</a>
-            </div>
+            <a aria-label='Home' href='../../index.html'>Home</a>
+            <a aria-label='Events' href='../events.html'>Events</a>
+            <a aria-label='Careers' href=''>Careers</a>
+            <a aria-label='Privacy' href=''>Privacy</a>
+            <!-- <a aria-label='' href=''>Apply</a> -->
         </footer>
     </main>
     <script src='../../index.js'></script>
+    <script src='../../js/slideshow.js'></script>
 </body>
 
 </html>
