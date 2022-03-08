@@ -34,6 +34,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid rgb(82, 82, 82);
 }
 .cube img {
     border-top-right-radius: 10px;
@@ -355,9 +356,8 @@ main {
         width: 100%;
         flex-direction: column;
         align-items: center;
-        margin-top: 15px;
+        margin-top: 75px;
         margin-bottom: 0px;
-        margin-left: 0px;
     }
     .under-main-cubes {
         display: flex;
@@ -393,12 +393,13 @@ main {
     .side-main-cube {
         width: 94%;height: 190px;
         border-radius: 10px;
-        margin: 0px;
+        margin: 0 auto;
         margin-bottom: 10px;
     }
     #under-main-cubes {
         margin-top: 10px;
         flex-direction: column;
+        align-items: center;
     }
     .small-cube {
         width: 94%;height: 225px;

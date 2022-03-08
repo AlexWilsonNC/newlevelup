@@ -79,6 +79,15 @@
     line-height: 26px;
     margin-top: 25px;
 }
+.blog-img {
+    display: flex;
+    justify-content: center;
+}
+.article-body img {
+    width: 50%;
+    border-radius: 10px;
+    margin: 0px auto;
+}
 .first-letter-article {
     font-size: 42px;
     font-family: 'Source Serif 4', sans-serif;
@@ -127,7 +136,9 @@
     .external-article {
         display: none;
     }
-
+    .article-body img {
+        width: 90%;
+    }
     .article-header {
         font-size: 36px;
         margin: 15px 0px;

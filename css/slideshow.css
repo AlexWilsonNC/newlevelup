@@ -78,6 +78,11 @@
   background-color: #717171;
 }
 
+.fade img {
+  width:100%;height:400px;overflow:hidden;
+  object-fit:cover;
+}
+
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -94,4 +99,17 @@
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+@media screen and (max-width: 800px) {
+  .fade img {
+    height: 300px;
+  }
+  .text {
+    display: none;
+  }
+  /* .prev,
+  .next {
+    display: none;
+  } */
 }

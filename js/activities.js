@@ -13,7 +13,8 @@ const tourney = document.querySelector('.activ-tourney');
 const regiLi = document.querySelector('.registration-li');
 const regi = document.querySelector('.activ-regi');
 
-pokeLi.addEventListener('click', function showActivity1() {
+function showActivity1(event) {
+    event.preventDefault();
     pokeLi.classList.add('active-li-top');
     poke.style.display = 'block';
     eSportLi.classList.remove('active-li');
@@ -24,8 +25,9 @@ pokeLi.addEventListener('click', function showActivity1() {
     beyblade.style.display = 'none';
     roboticsLi.classList.remove('active-li');
     robo.style.display = 'none';
-})
-eSportLi.addEventListener('click', function showActivity2() {
+}
+function showActivity2(event) {
+    event.preventDefault();
     pokeLi.classList.remove('active-li-top');
     poke.style.display = 'none';
     eSportLi.classList.add('active-li');
@@ -36,8 +38,9 @@ eSportLi.addEventListener('click', function showActivity2() {
     beyblade.style.display = 'none';
     roboticsLi.classList.remove('active-li');
     robo.style.display = 'none';
-})
-legoBuildLi.addEventListener('click', function showActivity3() {
+}
+function showActivity3(event) {
+    event.preventDefault();
     pokeLi.classList.remove('active-li-top');
     poke.style.display = 'none';
     eSportLi.classList.remove('active-li');
@@ -48,8 +51,9 @@ legoBuildLi.addEventListener('click', function showActivity3() {
     beyblade.style.display = 'none';
     roboticsLi.classList.remove('active-li');
     robo.style.display = 'none';
-})
-beybladeLi.addEventListener('click', function showActivity4() {
+}
+function showActivity4(event) {
+    event.preventDefault();
     pokeLi.classList.remove('active-li-top');
     poke.style.display = 'none';
     eSportLi.classList.remove('active-li');
@@ -60,8 +64,9 @@ beybladeLi.addEventListener('click', function showActivity4() {
     beyblade.style.display = 'block';
     roboticsLi.classList.remove('active-li');
     robo.style.display = 'none';
-})
-roboticsLi.addEventListener('click', function showActivity5() {
+}
+function showActivity5(event) {
+    event.preventDefault();
     pokeLi.classList.remove('active-li-top');
     poke.style.display = 'none';
     eSportLi.classList.remove('active-li');
@@ -72,12 +77,16 @@ roboticsLi.addEventListener('click', function showActivity5() {
     beyblade.style.display = 'none';
     roboticsLi.classList.add('active-li');
     robo.style.display = 'block';
-})
-tounramentLi.addEventListener('click', function showActivity6() {
-    // pokeLi.classList.add('active-li-top');
-    // poke.style.display = 'none';
-})
-pokregiLieLi.addEventListener('click', function showActivity7() {
-    // pokeLi.classList.add('active-li-top');
-    // poke.style.display = 'none';
-})
+    console.log('hey')
+}
+
+pokeLi.addEventListener('click', showActivity1)
+eSportLi.addEventListener('click', showActivity2)
+legoBuildLi.addEventListener('click', showActivity3)
+beybladeLi.addEventListener('click', showActivity4)
+roboticsLi.addEventListener('click', showActivity5)
+pokeLi.addEventListener('touchstart', showActivity1)
+eSportLi.addEventListener('touchstart', showActivity2)
+legoBuildLi.addEventListener('touchstart', showActivity3)
+beybladeLi.addEventListener('touchstart', showActivity4)
+roboticsLi.addEventListener('touchstart', showActivity5)
