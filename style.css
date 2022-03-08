@@ -203,10 +203,9 @@ main {
     border-bottom-right-radius: 10px;
     font-size: 24px;
     width: 200px;
-    padding: 5px;
+    padding: 3px;
     color: white;
     text-align: center;
-    box-shadow: var(--cube-shadow);
     position: fixed;
     top: 0;
     right: 25px;
@@ -224,6 +223,9 @@ main {
 }
 .small-infos {
     margin-bottom: 35px;
+}
+.reg-btn {
+    margin-left: 50px;
 }
 .reg-btn:hover {
     cursor: pointer;
@@ -319,6 +321,9 @@ main {
     font-size: 22px;
     margin-right: 10px;
 }
+.mobile-only {
+    display: none;
+}
 
 @media screen and (min-width: 1600px) {
     main {
@@ -353,6 +358,9 @@ main {
         width: 100%;
         padding: 0px;
         margin-top: 0px;
+    }
+    .mobile-only {
+        display: block;
     }
     .top-main {
         width: 100%;
@@ -422,9 +430,13 @@ main {
         height: 50%;
     }
     .link-cubes {
-        margin-left: 0px;
+        margin-left: 20px;
     }
     .small-infos {
         margin-bottom: 15px;
     }
+    .ordering-sc :nth-child(0) { order: 5; }
+    .ordering-sc :nth-child(1) { order: 4; }
+    .ordering-sc :nth-child(2) { order: 6; }
+    .ordering-sc :nth-child(3) { order: 1; }
 }
