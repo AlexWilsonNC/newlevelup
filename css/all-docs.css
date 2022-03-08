@@ -34,3 +34,17 @@
 .more-top {
     margin-top: 35px;
 }
+#second-lrn-mo {
+    margin-top: 0px;
+}
+.lrn-mo {
+}
+
+@media screen and (max-width: 800px) {
+    .both-docs {
+        padding-top: 85px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
