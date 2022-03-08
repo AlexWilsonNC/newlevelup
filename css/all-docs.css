@@ -37,6 +37,9 @@
 #second-lrn-mo {
     margin-top: 0px;
 }
+.all-docs-all-size * {
+    width: 400px;
+}
 .lrn-mo {
 }
 

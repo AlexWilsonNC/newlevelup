@@ -2,8 +2,21 @@
     display: flex;
     justify-content: flex-start;
 }
+.activ-main2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 .activities-side {
-    width: 180px;
+    width: 170px;
+    height: 100%;
+    border: 1px solid #a0a0a0;
+    border-radius: 5px;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+}
+.activities-side-mini {
+    width: 100px;
     height: 100%;
     border: 1px solid #a0a0a0;
     border-radius: 5px;
@@ -11,6 +24,10 @@
     display: flex;
 }
 .activities-side li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #a0a0a0;
+}
+.activities-side-mini li {
     padding: 10px 20px;
     border-bottom: 1px solid #a0a0a0;
 }
@@ -70,6 +87,7 @@
 .activ-h2 {
     font-weight: 300;
     text-align: start;
+    margin-top: 10px;
 }
 .multi-uls {
     display: flex;
@@ -204,5 +222,8 @@
         background-color: transparent;
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
+    }
+    .activ-h2 {
+        margin-top: 0px;
     }
 }

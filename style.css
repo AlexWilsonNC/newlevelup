@@ -224,9 +224,6 @@ main {
 .small-infos {
     margin-bottom: 35px;
 }
-.reg-btn {
-    margin-left: 50px;
-}
 .reg-btn:hover {
     cursor: pointer;
     filter: brightness(90%);
@@ -244,9 +241,14 @@ main {
 .bottom-of-cube {
     display: flex;
     flex-direction: column;
+}
+.bottom-of-cube2 {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
-.bottom-of-cube button {
+.bottom-of-cube a,
+.bottom-of-cube2 a {
     width: 90%;
     margin: 10px 0px;
     padding: 5px;
@@ -255,10 +257,14 @@ main {
     color: white;
     border-style: none;
 }
-.bottom-of-cube p {
+.bottom-of-cube p,
+.bottom-of-cube2 p {
     font-size: 18px;
     margin: 0px 15px;
     margin-top: 10px;
+}
+.waivers {
+    text-align: center;
 }
 .needed-wide {
     line-height: 26px;
@@ -314,8 +320,8 @@ main {
 #schools-we-serve {
     font-size: 32px;
     font-weight: bold;
-    text-decoration: underline;
     margin-bottom: 10px;
+    padding-left: 10px;
 }
 .small-pen {
     font-size: 22px;
@@ -323,6 +329,9 @@ main {
 }
 .mobile-only {
     display: none;
+}
+.sardis div {
+    padding-left: 10px;
 }
 
 @media screen and (min-width: 1600px) {
@@ -434,6 +443,9 @@ main {
     }
     .small-infos {
         margin-bottom: 15px;
+    }
+    .reg-btn {
+        margin-left: 20px;
     }
     .ordering-sc :nth-child(0) { order: 5; }
     .ordering-sc :nth-child(1) { order: 4; }
