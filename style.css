@@ -359,6 +359,11 @@ main {
         width: 40%;
     }
 }
+@media screen and (min-width: 1260px) {
+    main {
+        width: 75%;
+    }
+}
 @media screen and (max-width: 800px) {
     body {
         background: linear-gradient(to bottom, white, white);
@@ -422,6 +427,9 @@ main {
     }
     .small-cube {
         width: 94%;height: 225px;
+    }
+    .visit-info {
+        margin-top: 75px;
     }
     #center-visit p {
         text-align: center;

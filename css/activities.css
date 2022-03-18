@@ -173,11 +173,20 @@
         border: 1px solid black;
     }
 } */
+@media screen and (min-width: 1260px) {
+    #contact-bottom {
+        width: 75%
+    }
+    .footer-width {
+        width: 75%
+    }
+}
 @media screen and (max-width: 800px) {
-    .activ-main {
+    .activ-main,
+    .activ-main2 {
         flex-direction: column;
         align-items: center;
-        padding-top: 65px;
+        padding-top: 75px;
     }
     .comp-only {
         display: none;
