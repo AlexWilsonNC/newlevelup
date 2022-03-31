@@ -173,6 +173,12 @@
         border: 1px solid black;
     }
 } */
+@media screen and (min-width: 2000px) {
+    .footer-width {
+        width: 30%;
+    }
+    
+}
 @media screen and (min-width: 1260px) {
     #contact-bottom {
         width: 75%
